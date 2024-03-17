@@ -1,0 +1,59 @@
+name: women_safety_app
+description: A new Flutter project
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  get: ^4.6.5
+  iconly: ^1.0.1
+  background_sms: ^0.0.4
+  firebase_core: ^2.15.1
+  firebase_auth: ^4.9.0
+  fluttertoast: ^8.2.2
+  permission_handler: ^10.4.3
+  app_settings: ^5.0.0
+  geolocator: ^10.0.0
+  sensors_plus: ^3.0.3
+  shared_preferences: ^2.2.1
+  speech_to_text: ^6.3.0
+  floating_action_bubble: ^1.1.4
+  vibration: ^1.8.1
+  google_maps_flutter: ^2.5.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.3
+  provider: ^6.0.5
+  flutter_launcher_icons: '^0.13.1'
+  flutter_native_splash: '^2.3.2'
+  simple_animations: ^5.0.2
+
+flutter_native_splash:
+  android: true
+  ios: true
+  image: "assets/icons/transparent-blk-n-wht.png"
+  color: "#ffe6ff"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/transparent-blk-n-wht.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/icons/sos_button.png
+   - assets/icons/shake_alert.png
+   - assets/icons/stop_sos.png
+     
